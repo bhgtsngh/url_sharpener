@@ -25,22 +25,22 @@ func TestShortenURL(t *testing.T) {
 		{
 			url:          "https://youtube.com",
 			expectedCode: 200,
-			expectedJSON: `{"short_url":""}`,
+			expectedJSON: `{"short_url":"7p0lP5"}`,
 		},
 		{
 			url:          "https://udemy.com",
 			expectedCode: 200,
-			expectedJSON: `{"short_url":""}`,
+			expectedJSON: `{"short_url":"fOMSvi"}`,
 		},
 		{
 			url:          "https://wikipedia.com",
 			expectedCode: 200,
-			expectedJSON: `{"short_url":"}`, 
+			expectedJSON: `{"short_url":"zrRofb"}`, 
 		}
 		{
 			url:          "https://google.com",
 			expectedCode: 200,
-			expectedJSON: `{"short_url":""}`, 
+			expectedJSON: `{"short_url":"mCywHS"}`, 
 	}
 
 	

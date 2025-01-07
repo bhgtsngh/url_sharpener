@@ -1,5 +1,5 @@
 # Use a lightweight Go image as the base
-FROM golang:1.20-alpine
+FROM golang:1.23-alpine
 
 # Set environment variables for Go
 ENV GO111MODULE=on \
@@ -24,4 +24,4 @@ RUN go build -o url_proj
 EXPOSE 8080
 
 # Run the application
-CMD ["./url_proj"]
+CMD ["./url_proj"]

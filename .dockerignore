@@ -1,0 +1,16 @@
+# Exclude Go build cache and artifacts
+*.exe
+*.out
+*.o
+*.a
+*.log
+
+# Exclude temporary and system files
+.DS_Store
+.vscode
+.idea
+*.swp
+*.tmp
+
+# Exclude test results and other non-essentials
+/test
